@@ -1,0 +1,8 @@
+[
+  { "id": 1, "name": "Dr. Alice Johnson",  "email": "alice@medifile.com",  "role": "doctor",  "speciality": "Radiology"      },
+  { "id": 2, "name": "Dr. Robert Smith",   "email": "robert@medifile.com", "role": "doctor",  "speciality": "Cardiology"     },
+  { "id": 3, "name": "Nurse Carol White",  "email": "carol@medifile.com",  "role": "nurse",   "speciality": "General"        },
+  { "id": 4, "name": "David Brown",        "email": "david@medifile.com",  "role": "patient", "speciality": null             },
+  { "id": 5, "name": "Emma Wilson",        "email": "emma@medifile.com",   "role": "patient", "speciality": null             },
+  { "id": 6, "name": "Admin User",         "email": "admin@medifile.com",  "role": "admin",   "speciality": null             }
+]

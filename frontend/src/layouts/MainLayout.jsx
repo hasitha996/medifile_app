@@ -1,0 +1,18 @@
+import { Outlet } from "react-router-dom";
+import Navbar from "../components/layout/Navbar/Navbar";
+import Footer from "../components/layout/Footer/Footer";
+import MediBotWidget from "../components/MediBotWidget/MediBotWidget";
+
+const MainLayout = () => (
+  <div className="min-h-screen flex flex-col bg-slate-50">
+    <Navbar />
+    <main className="flex-1 max-w-7xl w-full mx-auto px-4 sm:px-6 py-8">
+      <Outlet />
+    </main>
+    <Footer />
+    <MediBotWidget />
+  </div>
+);
+
+export default MainLayout;
+

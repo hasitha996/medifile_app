@@ -1,0 +1,54 @@
+[
+  {
+    "id": 1,
+    "name": "chest_xray_david.pdf",
+    "category": "X-Ray",
+    "patientId": 4,
+    "patientName": "David Brown",
+    "uploadedBy": 3,
+    "uploadedByName": "Nurse Carol White",
+    "uploadedAt": "2026-03-15T09:20:00Z",
+    "size": 2457600,
+    "status": "available",
+    "transferredTo": null
+  },
+  {
+    "id": 2,
+    "name": "blood_lab_report_emma.pdf",
+    "category": "Lab Report",
+    "patientId": 5,
+    "patientName": "Emma Wilson",
+    "uploadedBy": 1,
+    "uploadedByName": "Dr. Alice Johnson",
+    "uploadedAt": "2026-03-20T14:45:00Z",
+    "size": 512000,
+    "status": "transferred",
+    "transferredTo": 2
+  },
+  {
+    "id": 3,
+    "name": "cardiac_mri_david.dcm",
+    "category": "MRI Scan",
+    "patientId": 4,
+    "patientName": "David Brown",
+    "uploadedBy": 2,
+    "uploadedByName": "Dr. Robert Smith",
+    "uploadedAt": "2026-03-28T11:00:00Z",
+    "size": 15728640,
+    "status": "available",
+    "transferredTo": null
+  },
+  {
+    "id": 4,
+    "name": "prescription_emma_mar.pdf",
+    "category": "Prescription",
+    "patientId": 5,
+    "patientName": "Emma Wilson",
+    "uploadedBy": 1,
+    "uploadedByName": "Dr. Alice Johnson",
+    "uploadedAt": "2026-04-01T08:30:00Z",
+    "size": 204800,
+    "status": "available",
+    "transferredTo": null
+  }
+]
